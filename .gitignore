@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -40,3 +41,39 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+=======
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+>>>>>>> 25524fdcebffe8863bb7d9de522a7546a44a795d
