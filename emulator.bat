@@ -20,17 +20,17 @@ goto end
 
 :stable
 echo Launching Stable (angle indirect) Device...
-%EMULATOR_CMD% -avd stable_device -gpu angle_indirect -memory 1024
+%EMULATOR_CMD% -avd stable_device -gpu angle_indirect -memory 1024 -prop hw.keyboard=yes
 goto end
 
 :stable2
 echo Launching Stable Device (host)...
-%EMULATOR_CMD% -avd stable_device -gpu host -memory 1024
+%EMULATOR_CMD% -avd stable_device -gpu host -memory 1024 -prop hw.keyboard=yes
 goto end
 
 :swift
 echo Launching stable (gpu swiftshader indirect) Device...
-%EMULATOR_CMD% -avd stable_device -gpu swiftshader_indirect -memory 1024
+%EMULATOR_CMD% -avd stable_device -gpu swiftshader_indirect -memory 1024 -prop hw.keyboard=yes
 goto end
 
 :end
