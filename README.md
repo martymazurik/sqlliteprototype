@@ -1,4 +1,4 @@
-This is a code snippet prototype to test out SQLLite and a phone App
+This is a Flutter project prototype to test out SQLLite & Mongo(Atlas) DB inserts from a Mobile App
 
 Production note on env secrets:
 dotenv (.env) in ADK is bad juju (security risk)
